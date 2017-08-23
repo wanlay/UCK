@@ -8,6 +8,8 @@ cd UCK/ && make dist
 cd dist
 sudo dpkg -i uck_2.4.8-0ubuntu1_all.deb
 ```
+[Example deb package](uck_2.4.8-0ubuntu1_all.deb)
+
 About the usage,reffer to the article
 http://www.makeuseof.com/tag/ubuntu-customization-kit-linux-operating-system/
 ## What it is:
