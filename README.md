@@ -1,14 +1,18 @@
 # UCK - Ubuntu Customization Toolkit
 ----------------------------------
 ## quickstart
-```sh
+```shell
+wget https://github.com/wanlay/UCK/releases/download/v2.4.8/uck_2.4.8-0ubuntu1_all.deb
+sudo dpkg -i uck_2.4.8-0ubuntu1_all.deb
+```
+## install from sources
+```shell
 git clone https://github.com/wanlay/UCK.git
 cd UCK/ && make dist
 # you can find the deb in the dist/ directory  
 cd dist
 sudo dpkg -i uck_2.4.8-0ubuntu1_all.deb
 ```
-[Example deb package](uck_2.4.8-0ubuntu1_all.deb)
 
 About the usage,reffer to the article
 http://www.makeuseof.com/tag/ubuntu-customization-kit-linux-operating-system/
